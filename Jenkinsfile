@@ -10,7 +10,7 @@ stages {
 
     stage('Git Checkout') {
         steps {
-            git url: 'https://github.com/ITkannadigaru/shoppingassistantservice.git', branch: 'main'
+            git url: 'https://github.com/QuntamVector/shoppingassistantservice.git', branch: 'main'
         }
     }
 
